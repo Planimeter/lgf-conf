@@ -4,12 +4,12 @@
 --
 --============================================================================--
 
-function love.conf( c )
-	argv = {}
-	for _, v in ipairs( arg ) do
-		argv[ v ] = true
-	end
+argv = {}
+for _, v in ipairs( arg ) do
+	argv[ v ] = true
+end
 
+function love.conf( c )
 	c.title = "Untitled"
 	c.version = "0.10.1"
 	if ( argv[ "--dedicated" ] ) then
