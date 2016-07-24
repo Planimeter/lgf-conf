@@ -5,9 +5,9 @@
 --============================================================================--
 
 function love.conf( c )
-	c.args = {}
+	argv = {}
 	for _, v in ipairs( arg ) do
-		c.args[ v ] = true
+		argv[ v ] = true
 	end
 
 	c.title = "Untitled"
