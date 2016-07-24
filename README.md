@@ -1,8 +1,8 @@
 # love-conf
 LÖVE 0.10.1 configuration file
 
-Adds a `--dedicated` argument that disables client-side modules, and OS-specific
-`c.window.icon` functionality.
+Adds `argv`, a `--dedicated` argument that disables client-side modules, and
+OS-specific `c.window.icon` functionality.
 
 ## License
 
