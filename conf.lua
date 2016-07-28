@@ -26,7 +26,7 @@ end
 function love.conf( c )
 	c.title = "Untitled"
 	c.version = "0.10.1"
-	if ( argv[ "--dedicated" ] ) then
+	if ( _DEDICATED ) then
 		c.modules.keyboard = false
 		c.modules.mouse = false
 		c.modules.joystick = false
