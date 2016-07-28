@@ -1,7 +1,7 @@
 # love-conf
 LÖVE 0.10.1 configuration file
 
-Adds `argv`, `_CLIENT`, `_SERVER`, `_DEDICATED`/`--dedicated` argument that
+Adds `argv`, `_CLIENT`, `_SERVER`, `_DEDICATED`, a `--dedicated` argument that
 disables client-side modules, and OS-specific `c.window.icon` functionality.
 
 ## License
