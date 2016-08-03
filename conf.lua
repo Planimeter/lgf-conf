@@ -5,10 +5,7 @@
 --============================================================================--
 
 argv = {}
-
-for _, v in ipairs( arg ) do
-	argv[ v ] = true
-end
+for _, v in ipairs( arg ) do argv[ v ] = true end
 
 if ( argv[ "--debug" ] ) then
 	_DEBUG = true
