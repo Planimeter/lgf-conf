@@ -1,4 +1,4 @@
---=========== Copyright © 2016, Planimeter, All rights reserved. =============--
+--=========== Copyright © 2017, Planimeter, All rights reserved. =============--
 --
 -- Purpose:
 --
@@ -20,27 +20,14 @@ if ( not _SERVER ) then
 	_CLIENT = true
 end
 
-function love.conf( c )
-	c.title = "Untitled"
-	c.version = "0.10.2"
+function framework.conf( c )
 	if ( _DEDICATED ) then
-		c.modules.keyboard = false
-		c.modules.mouse = false
-		c.modules.joystick = false
-		c.modules.touch = false
-		c.modules.image = false
-		c.modules.graphics = false
-		c.modules.audio = false
-		c.modules.sound = false
-		c.modules.system = false
-		c.modules.font = false
 		c.modules.window = false
-		c.modules.video = false
+		c.modules.graphics = false
 	else
-		c.window.highdpi = true
+		c.window.title = "Untitled"
 		c.window.icon = "images/icon.png"
-		require( "love.system" )
-		if ( love.system.getOS() == "OS X" ) then
+		if ( jit.os == "OSX" ) then
 			c.window.icon = "images/icon_osx.png"
 		end
 	end

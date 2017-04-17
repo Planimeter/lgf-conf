@@ -1,14 +1,15 @@
-# love-conf
-LÖVE 0.10.2 configuration file
+# lgf-conf
+lgameframework configuration file
 
-Adds `argv`, `_CLIENT`, `_SERVER`, `_DEDICATED`, a `--dedicated` argument that
-disables client-side modules, and OS-specific `c.window.icon` functionality.
+Adds `argv`, a `--debug` argument, `_DEBUG`, `_CLIENT`, `_SERVER`, a
+`--dedicated` argument that disables client-side modules, `_DEDICATED`, and
+OS-specific `c.window.icon` functionality.
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Planimeter
+Copyright (c) 2017 Planimeter
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
