@@ -6,8 +6,7 @@ Adds `argv`, a `--debug` argument, `_DEBUG`, `_CLIENT`, `_SERVER`, a
 OS-specific `c.window.icon` functionality.
 
 ## License
-
-The MIT License (MIT)
+MIT License
 
 Copyright (c) 2017 Planimeter
 
